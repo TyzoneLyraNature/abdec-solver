@@ -1,4 +1,4 @@
 node_modules
 dist
 ./src/puzzles.py
-./src/__pycache__
+./src/__pycache__/*
