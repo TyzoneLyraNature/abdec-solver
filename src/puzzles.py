@@ -12,41 +12,6 @@ puzzles = {
     ),
   ),
 
-  '2': PolyominoProblem(
-    abdec('b'),
-    Polyomino.fromString(
-      '''
-      .O
-      OO
-      .OO
-      '''
-    ),
-  ),
-
-  '3': PolyominoProblem(
-    abdec('ab'),
-    Polyomino.fromString(
-      '''
-      ....O
-      OO.OO
-      .OOO
-      ..O
-      '''
-    ),
-  ),
-
-  '4': PolyominoProblem(
-    abdec('aabb'),
-    Polyomino.fromString(
-      '''
-      .OOO
-      OOO.
-      O.OO
-      .OOO
-      '''
-    ),
-  ),
-
   '5': PolyominoProblem(
     abdec('bbbbb'),
     Polyomino.fromString(
@@ -66,43 +31,6 @@ puzzles = {
       OOO
       O*O
       **O
-      '''
-    ),
-  ),
-
-  '7': PolyominoProblem(
-    abdec('bb'),
-    Polyomino.fromString(
-      '''
-      OOO
-      O*O
-      O.O
-      '''
-    ),
-  ),
-
-  '8': PolyominoProblem(
-    abdec('aaab'),
-    Polyomino.fromString(
-      '''
-      .OOO
-      OOOO*
-      OOOO
-      ...*
-      '''
-    ),
-  ),
-
-  '9': PolyominoProblem(
-    abdec('aabbb'),
-    Polyomino.fromString(
-      '''
-      ..OO
-      .OOOO
-      .O.OOO
-      *O*O
-      ..OO
-      ..*
       '''
     ),
   ),
@@ -127,69 +55,6 @@ puzzles = {
     ),
   ),
 
-  '12': PolyominoProblem(
-    abdec('bb'),
-    Polyomino.fromString(
-      '''
-      OOOOObO
-      OOObOOO
-      '''
-    ),
-  ),
-
-  '13': PolyominoProblem(
-    abdec('ab'),
-    Polyomino.fromString(
-      '''
-      OaO
-      O.O
-      OOO
-      ..O
-      '''
-    ),
-  ),
-
-  '14': PolyominoProblem(
-    abdec('aaaa'),
-    Polyomino.fromString(
-      '''
-      OO.O*
-      OOaOO
-      OOOOO
-      OO*OO
-      '''
-    ),
-  ),
-
-  '15': PolyominoProblem(
-    abdec('aaabbb'),
-    Polyomino.fromString(
-      '''
-      OObOO
-      OOOOO
-      OOOOOa
-      .OOOOO
-      ..O*OO
-      ..OOa
-      '''
-    ),
-  ),
-
-  '16': PolyominoProblem(
-    abdec('bbbbbbb'),
-    Polyomino.fromString(
-      '''
-      O
-      OOOO*O
-      O.OO.O
-      OOOOOO
-      .O.OO
-      .OOOO
-      .ObbO
-      '''
-    ),
-  ),
-
   '17': PolyominoProblem(
     abdec('ac'),
     Polyomino.fromString(
@@ -199,105 +64,6 @@ puzzles = {
       .O
       '''
     ),
-  ),
-
-  '18': PolyominoProblem(
-    abdec('aabcc'),
-    Polyomino.fromString(
-      '''
-      OOOO
-      cOOO
-      OOOO
-      OOOc
-      '''
-    ),
-  ),
-
-  '19': PolyominoProblem(
-    abdec('aabbc'),
-    Polyomino.fromString(
-      '''
-      .O
-      O*
-      *O*O*O
-      .*.O.O
-      .*.*.O
-      '''
-    ),
-  ),
-
-  '20': PolyominoProblem(
-    abdec('abccccc'),
-    Polyomino.fromString(
-      '''
-      OO*OO
-      OOOOc
-      OObOO
-      O.OOO
-      '''
-    ),
-  ),
-
-  '21': PolyominoProblem(
-    abdec('bbbbccc'),
-    Polyomino.fromString(
-      '''
-      OOOOO
-      OOOOO
-      OOOOO
-      OOOOa
-      '''
-    )
-  ),
-
-  '22': PolyominoProblem(
-    abdec('ccccccccccccc'),
-    Polyomino.fromString(
-      '''
-      OOOO
-      *OaOO
-      OaOaO
-      OOaOO
-      .OO*O
-      '''
-    )
-  ),
-
-  '23': PolyominoProblem(
-    abdec('ab'),
-    Polyomino.fromString(
-      '''
-      .OO
-      OOOO
-      Od
-      O
-      '''
-    )
-  ),
-
-  '24': PolyominoProblem(
-    abdec('d'),
-    Polyomino.fromString(
-      '''
-      ..O
-      *O*
-      *OO
-      .O
-      '''
-    )
-  ),
-
-  '25': PolyominoProblem(
-    abdec('bbcd'),
-    Polyomino.fromString(
-      '''
-      OOOO*
-      OOOOO
-      OOdOO
-      OcOOO
-      OO*OO
-      '''
-    )
   ),
 
   'cat_1': PolyominoProblem(
@@ -352,43 +118,6 @@ puzzles = {
     )
   ),
 
-  # 'test': PolyominoProblem(
-  #   abdec('accc'),
-  #   Polyomino.fromString(
-  #     '''
-  #     .aOa
-  #     OOOOO
-  #     '''
-  #   )
-  # ),
-
-  '26': PolyominoProblem(
-    abdec('abbbdd'),
-    Polyomino.fromString(
-      '''
-      OOOOO
-      OOO.O
-      OOOOO
-      OO.O
-      OO.O
-      OOOO
-      '''
-    )
-  ),
-
-  '27': PolyominoProblem(
-    abdec('aabb'),
-    Polyomino.fromString(
-      '''
-      OOOOO
-      OO*O*
-      OOOdO
-      O*OOO
-      OOOdO
-      '''
-    )
-  ),
-
   '28': PolyominoProblem(
     abdec('a'),
     Polyomino.fromString(
@@ -403,30 +132,6 @@ puzzles = {
     )
   ),
 
-  '29': PolyominoProblem(
-    abdec('ac'),
-    Polyomino.fromString(
-      '''
-      *OOO
-      OOOO
-      OOO*
-      O*O
-      '''
-    )
-  ),
-
-  '30': PolyominoProblem(
-    abdec('ac'),
-    Polyomino.fromString(
-      '''
-      OOO*
-      OOOO
-      OO*O
-      *O*
-      '''
-    ),
-  ),
-
   '31': PolyominoProblem(
     abdec('bbbb'),
     Polyomino.fromString(
@@ -434,74 +139,6 @@ puzzles = {
       OOOOOO
       OOOOOO
       OObbOO
-      '''
-    ),
-  ),
-
-  '32': PolyominoProblem(
-    abdec('cccc'),
-    Polyomino.fromString(
-      '''
-      OOOOOO
-      OO*O*O
-      OOOdOO
-      OO*OOO
-      OOOOOO
-      *O..OO
-      '''
-    ),
-  ),
-
-  '33': PolyominoProblem(
-    abdec('aaaaaaaab'),
-    Polyomino.fromString(
-      '''
-      ..O
-      OOOOO
-      OOO*O
-      OOOOO
-      OO*Oa
-      OOOOO
-      OOO*O
-      OOOOO
-      '''
-    ),
-  ),
-
-  '34': PolyominoProblem(
-    abdec('bccd'),
-    Polyomino.fromString(
-      '''
-      OOOcO*O
-      OOOcOOO
-      ObOOOOO
-      OOOOOOO
-      ..OOO
-      ..*O*
-      '''
-    ),
-  ),
-
-  '35': PolyominoProblem(
-    abdec('bbbbc'),
-    Polyomino.fromString(
-      '''
-      eOeeOe
-      eOeOeO
-      ....OO
-      ....ee
-      '''
-    ),
-  ),
-
-  '35E': PolyominoProblem(
-    abdec('bbbbc'),
-    Polyomino.fromString(
-      '''
-      EOEEOE
-      EOEOEO
-      ....OO
-      ....EE
       '''
     ),
   ),
@@ -530,58 +167,6 @@ puzzles = {
     ),
   ),
 
-  '37': PolyominoProblem(
-    abdec('ace'),
-    Polyomino.fromString(
-      '''
-      OO..Oc
-      OOO*OO
-      O*OOO*
-      OOO*OO
-      OO..OO
-      '''
-    ),
-  ),
-
-  '37E': PolyominoProblem(
-    abdec('acE'),
-    Polyomino.fromString(
-      '''
-      OO..Oc
-      OOO*OO
-      O*OOO*
-      OOO*OO
-      OO..OO
-      '''
-    ),
-  ),
-
-  '38': PolyominoProblem(
-    abdec('aaac'),
-    Polyomino.fromString(
-      '''
-      OO.eO
-      OOOOO
-      OOOOO
-      OOOOO
-      OOOO.
-      OeOOO
-      '''
-    ),
-  ),
-
-  '39': PolyominoProblem(
-    abdec('b'),
-    Polyomino.fromString(
-      '''
-      OOOO
-      O*OO
-      OO*O
-      OOOO
-      '''
-    ),
-  ),
-
   '40': PolyominoProblem(
     abdec('aaac'),
     Polyomino.fromString(
@@ -594,66 +179,6 @@ puzzles = {
       '''
     ),
   ),
-
-  '41': PolyominoProblem(
-    abdec('aaa'),
-    Polyomino.fromString(
-      '''
-      .*OOOO*
-      .OOOOOO
-      .OOOOOO
-      OOOOOOOO
-      OaOOOOaO
-      .OO..OO.
-      '''
-    ),
-  ),
-
-  '42': PolyominoProblem(
-    abdec('aabc'),
-    Polyomino.fromString(
-      '''
-      OOOb
-      O*OO
-      O*OO
-      O**O
-      O**O
-      OOOc
-      '''
-    ),
-  ),
-
-  '43': PolyominoProblem(
-    abdec('bcde'), #bcde
-    Polyomino.fromString(
-      '''
-      .OOOOOOOO*
-      OOOOOOOObO
-      OOOOOOOOOO
-      OOOOOcOO*O
-      OOOOOOOOOO
-      OO*OO*O
-      O*O*OOO
-      .OOOOOO
-      '''
-    ),
-  ),
-
-  '44': PolyominoProblem(
-    abdec('abcd'),
-    Polyomino.fromString(
-      '''
-      OOOOOO
-      OaO*OO
-      cOOOOO
-      OOOOdO
-      OObOOO
-      ObO*OO
-      OOOOOO
-      '''
-    ),
-  ),
-
   'tyzone_1': PolyominoProblem(
     abdec('cy'),
     Polyomino.fromString(
@@ -667,34 +192,6 @@ puzzles = {
       '''
     ),
   ),
-
-  # 'iq': PolyominoProblem(
-  #   abdec('abcdefghijkl'),
-  #   Polyomino.fromString(
-  #     '''
-  #     ***********
-  #     ***********
-  #     ***********
-  #     ***********
-  #     ***********
-  #     '''
-  #   ),
-
-  # ),
-
-  # 'iq2': PolyominoProblem(
-  #   abdec('abcdefghijkl'),
-  #   Polyomino.fromString(
-  #     '''
-  #     OOOOOOOOOOO
-  #     OOOOOOOOOOO
-  #     OOOOOOOOOOO
-  #     OOOOOOOOOOO
-  #     OOOOOOOOOOO
-  #     '''
-  #   ),
-
-  # ),
 
   'advent1': PolyominoProblem(
     abdec('abd'),
